@@ -28,6 +28,7 @@
 
 print('Hello, World')
 print('hi there')
+print('My name is Ryo')
 print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
