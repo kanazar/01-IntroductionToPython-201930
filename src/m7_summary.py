@@ -43,13 +43,13 @@ import rosegraphics as rg
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
-simpleturtle = rg.SimpleTurtle()
+simpleturtle = rg.SimpleTurtle('turtle')
 simpleturtle.pen = rg.Pen('blue',10)
 
-simpleturtle.backward(200)
+simpleturtle.forward(200)
 simpleturtle.go_to(rg.Point(-100,200))
 
 simpleturtle_2 = rg.SimpleTurtle()
 simpleturtle_2.pen = rg.Pen('green',10)
 
-simpleturtle_2.backward(150)
+simpleturtle_2.forward(150)
