@@ -47,9 +47,14 @@ simpleturtle = rg.SimpleTurtle('turtle')
 simpleturtle.pen = rg.Pen('blue',10)
 
 simpleturtle.forward(200)
-simpleturtle.go_to(rg.Point(-100,200))
+simpleturtle.pen_up()
+simpleturtle.go_to(rg.Point(100,-40))
+simpleturtle.pen_down()
+simpleturtle.pen = rg.Pen('green',10)
 
-simpleturtle_2 = rg.SimpleTurtle()
-simpleturtle_2.pen = rg.Pen('green',10)
+simpleturtle.right(90)
+simpleturtle.forward(150)
 
-simpleturtle_2.forward(150)
+p2 = rg.Point(7, 3)
+p1 = rg.Point(100, 50)
+print((4 * p1.x) + p2.y)
